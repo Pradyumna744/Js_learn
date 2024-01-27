@@ -9,7 +9,7 @@ let age = 21;
 //symbol=.unique
  
 //object
-console.log(typeof undefined ) 
+console.log(typeof null ) 
 console.log(typeof undefined)
 //  
  
