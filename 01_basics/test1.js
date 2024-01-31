@@ -1,1 +1,0 @@
-console.log("Paddy Ha Maj Mulga ahe");
