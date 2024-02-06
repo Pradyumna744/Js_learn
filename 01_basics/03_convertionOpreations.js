@@ -17,7 +17,7 @@ let score ="33asda"
 let isLoggedIn="paddy";
 
 let booleanIsLoggedIn=Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
+// console.log(booleanIsLoggedIn)git
 
 //Boolean Convertions
 // 1=>true; 0=>false
@@ -33,4 +33,23 @@ let stringNumber=String(someNumber);
 
 // ********************** Oprations *******************
 
-let  
+let str1 = "Pradyumna "
+let str2 = "Marathe"
+
+let str4 = str1 + str2
+console.log(str3)
+
+
+// console.log("2" + 2)
+// console.log(2 + "2")
+// console.log("1" + 2 + 2)//it cant covert becaues js is smart
+// console.log(1 + 2 + "2")
+   
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+ 
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter )
