@@ -17,7 +17,7 @@ let score ="33asda"
 let isLoggedIn="paddy";
 
 let booleanIsLoggedIn=Boolean(isLoggedIn)
-// console.log(booleanIsLoggedIn)
+console.log(booleanIsLoggedIn)
 
 //Boolean Convertions
 // 1=>true; 0=>false
