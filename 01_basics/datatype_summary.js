@@ -33,10 +33,31 @@ let obj =
 }
  /*Functions*/
 //  IN javascript we treat function ass veriable
- const myFunction=function () {
-    console.log("Hello World");
- }
+//  const myFunction=function () {
+//     console.log("Hello World");
+//  }
 
- console.log(typeof outTemp);
-    
+// console.log(typeof outTemp);
  
+
+//*******************************************/
+
+
+// Stack (Permitive) , Heap (Non-Primitive)
+ 
+let myYoutubeName = "the gangster"
+let anotherName = myYoutubeName
+anotherName="chaiaurcode"
+console.log(myYoutubeName);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "xyz@123.com" ,  
+    upiId:"pratik"
+
+}
+let userTwo = userOne
+userOne.email = "hitesh@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
