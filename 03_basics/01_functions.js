@@ -45,3 +45,37 @@ const result = addTwoNumbers(20, 5);//arguments or passsing value
     
 } 
 console.log(loginUserMessage());
+
+
+/*Shopping Cart function*/
+
+function addCart(...num1) {
+    return num1
+}
+
+console.log(addCart(100,200,300,400));
+
+/*Objecte pass or use in function*/
+/*const user=
+{
+    username: "vivek",
+    price:199
+}
+
+     function handelObjeect(anyobject){
+        console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+     }
+
+handelObjeect(user)
+     */
+
+/*Array pass or use in function*/
+
+const myNewArray = [200, 300, 400, "ABC"]
+
+function returnSecondValue(getArray) {
+    return getArray[0]
+}
+
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200,400,500,1000]));
