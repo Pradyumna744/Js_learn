@@ -36,7 +36,7 @@ const result = addTwoNumbers(20, 5);//arguments or passsing value
 // console.log("Result",result);
 
 /*anothe example of return */  function loginUserMessage(username) {
-    if (username === undefined) /*or if (!username) */
+    if (username === undefined) /*or if (!username)  */
     { 
         console.log("please enter a username");
         return
