@@ -17,7 +17,9 @@ function one()
 {
     /*the js code  was excute line by line and inside 
     the resources can't be accessed by the parent function  child can access the values of its parents   */
-    const username = "mayur"
+   
+   
+   /* const username = "mayur"
     
     function two() {
    
@@ -28,4 +30,36 @@ function one()
     two();
 }
 
+
 one()
+
+*/
+
+
+// same thing was happend with if else statements  
+if(true)
+{
+
+    const username="hituu"
+    if(username==="hitu")
+    {
+        const website ="youtube"
+        console.log(username+website);
+    }
+    console.log(website)
+}
+// console.log(username);
+
+// IMP concept
+addone(5);
+function addone(num){
+    return num+1;
+
+}
+
+// there two diffrent type of function declearing and accessing there elements
+addTwo(5)
+const addTwo=function(num)
+{
+    return num+2;
+}
